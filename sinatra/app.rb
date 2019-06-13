@@ -26,8 +26,3 @@ get '/named-cat' do
   @name = params[:name]
   erb(:index)
 end
-
-# <div style='border: 3px dashed red'>
-#   <img src='http://bit.ly/1eze8aE'>
-# </div>
-# This code seems to mess up the border by having it extend to the right.
